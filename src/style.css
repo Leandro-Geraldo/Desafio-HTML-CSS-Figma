@@ -1,0 +1,46 @@
+body{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo h1{
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu li a{
+    padding: 10px 5px;
+    transition: 0.3s ease-in-out;
+    margin: 15px;
+}
+
+.menu li a:hover{
+    background-color: var(--background-color-green);
+    color: #fff;
+}
+
+.menu li a.btn{
+    color: #fff;
+    border-radius: 10px;
+    background-color: var(--background-color-green);
+    margin-left: 20px;
+    padding: 10px 20px;
+}
